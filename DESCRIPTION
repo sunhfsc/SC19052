@@ -1,0 +1,17 @@
+Package: SC19052
+Type: Package
+Title: Functions for collective risk model and risk measures
+Version: 1.0
+Date: 2020-01-02
+Author: Hongfang Sun
+Maintainer: Hongfang Sun <sunhf@mail.ustc.edu.cn>
+Description: There are three R functions which can compute the cumulative loss for collective risk model,
+         and a drawing function for risk measures which can draw the curve of VaR and TVaR changing 
+         with quantile level.
+License: GPL (>= 2)
+Encoding: UTF-8
+Imports: Rcpp (>= 1.0.3),knitr, rmarkdown
+LinkingTo: Rcpp
+RoxygenNote: 7.0.2
+VignetteBuilder: knitr
+URL: http://github.com/sunhfsc/SC19052
